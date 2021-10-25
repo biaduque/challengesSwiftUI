@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131D128927273A8C00B13E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131D128827273A8C00B13E4B /* Assets.xcassets */; };
+		131D128C27273A8C00B13E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131D128B27273A8C00B13E4B /* Preview Assets.xcassets */; };
+		131D129327273C6600B13E4B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 131D129227273C6600B13E4B /* landmarkData.json */; };
+		131D129527273C9300B13E4B /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D129427273C9300B13E4B /* LandMark.swift */; };
+		131D129727273EC800B13E4B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D129627273EC800B13E4B /* ModelData.swift */; };
+		131D129E272741E900B13E4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D129B272741E900B13E4B /* CircleImage.swift */; };
+		131D129F272741E900B13E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D129C272741E900B13E4B /* ContentView.swift */; };
+		131D12A0272741E900B13E4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D129D272741E900B13E4B /* MapView.swift */; };
+		131D12A22727426700B13E4B /* PrataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D12A12727426700B13E4B /* PrataApp.swift */; };
+		131D12A4272742FF00B13E4B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D12A3272742FF00B13E4B /* LandmarkRow.swift */; };
+		131D12A62727460300B13E4B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D12A52727460300B13E4B /* LandmarkList.swift */; };
+		131D12A82727475900B13E4B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D12A72727475900B13E4B /* LandmarkDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131D128127273A7A00B13E4B /* Prata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131D128827273A8C00B13E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		131D128B27273A8C00B13E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		131D129227273C6600B13E4B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		131D129427273C9300B13E4B /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		131D129627273EC800B13E4B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		131D129B272741E900B13E4B /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		131D129C272741E900B13E4B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		131D129D272741E900B13E4B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		131D12A12727426700B13E4B /* PrataApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrataApp.swift; sourceTree = "<group>"; };
+		131D12A3272742FF00B13E4B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		131D12A52727460300B13E4B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		131D12A72727475900B13E4B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131D127E27273A7A00B13E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131D127827273A7A00B13E4B = {
+			isa = PBXGroup;
+			children = (
+				131D128327273A7A00B13E4B /* Prata */,
+				131D128227273A7A00B13E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		131D128227273A7A00B13E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131D128127273A7A00B13E4B /* Prata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131D128327273A7A00B13E4B /* Prata */ = {
+			isa = PBXGroup;
+			children = (
+				131D12A12727426700B13E4B /* PrataApp.swift */,
+				131D129A2727412F00B13E4B /* Resources */,
+				131D12992727411F00B13E4B /* Model */,
+				131D12982727411600B13E4B /* View */,
+				131D128827273A8C00B13E4B /* Assets.xcassets */,
+				131D128A27273A8C00B13E4B /* Preview Content */,
+			);
+			path = Prata;
+			sourceTree = "<group>";
+		};
+		131D128A27273A8C00B13E4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				131D128B27273A8C00B13E4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		131D12982727411600B13E4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				131D129B272741E900B13E4B /* CircleImage.swift */,
+				131D129C272741E900B13E4B /* ContentView.swift */,
+				131D129D272741E900B13E4B /* MapView.swift */,
+				131D12A3272742FF00B13E4B /* LandmarkRow.swift */,
+				131D12A52727460300B13E4B /* LandmarkList.swift */,
+				131D12A72727475900B13E4B /* LandmarkDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		131D12992727411F00B13E4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				131D129627273EC800B13E4B /* ModelData.swift */,
+				131D129427273C9300B13E4B /* LandMark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		131D129A2727412F00B13E4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				131D129227273C6600B13E4B /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131D128027273A7A00B13E4B /* Prata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131D128F27273A8C00B13E4B /* Build configuration list for PBXNativeTarget "Prata" */;
+			buildPhases = (
+				131D127D27273A7A00B13E4B /* Sources */,
+				131D127E27273A7A00B13E4B /* Frameworks */,
+				131D127F27273A7A00B13E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prata;
+			productName = Prata;
+			productReference = 131D128127273A7A00B13E4B /* Prata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131D127927273A7A00B13E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					131D128027273A7A00B13E4B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 131D127C27273A7A00B13E4B /* Build configuration list for PBXProject "Prata" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131D127827273A7A00B13E4B;
+			productRefGroup = 131D128227273A7A00B13E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131D128027273A7A00B13E4B /* Prata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131D127F27273A7A00B13E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131D128C27273A8C00B13E4B /* Preview Assets.xcassets in Resources */,
+				131D128927273A8C00B13E4B /* Assets.xcassets in Resources */,
+				131D129327273C6600B13E4B /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131D127D27273A7A00B13E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131D129527273C9300B13E4B /* LandMark.swift in Sources */,
+				131D129727273EC800B13E4B /* ModelData.swift in Sources */,
+				131D12A0272741E900B13E4B /* MapView.swift in Sources */,
+				131D12A62727460300B13E4B /* LandmarkList.swift in Sources */,
+				131D12A82727475900B13E4B /* LandmarkDetail.swift in Sources */,
+				131D129F272741E900B13E4B /* ContentView.swift in Sources */,
+				131D12A22727426700B13E4B /* PrataApp.swift in Sources */,
+				131D12A4272742FF00B13E4B /* LandmarkRow.swift in Sources */,
+				131D129E272741E900B13E4B /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		131D128D27273A8C00B13E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		131D128E27273A8C00B13E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131D129027273A8C00B13E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prata/Preview Content\"";
+				DEVELOPMENT_TEAM = V8V28A4DX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biaduque.Prata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131D129127273A8C00B13E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prata/Preview Content\"";
+				DEVELOPMENT_TEAM = V8V28A4DX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biaduque.Prata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131D127C27273A7A00B13E4B /* Build configuration list for PBXProject "Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131D128D27273A8C00B13E4B /* Debug */,
+				131D128E27273A8C00B13E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131D128F27273A8C00B13E4B /* Build configuration list for PBXNativeTarget "Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131D129027273A8C00B13E4B /* Debug */,
+				131D129127273A8C00B13E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131D127927273A7A00B13E4B /* Project object */;
+}
